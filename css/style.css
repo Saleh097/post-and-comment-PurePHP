@@ -1,0 +1,183 @@
+body {
+	background-color: #ecf0f1;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	word-wrap: break-word;
+}
+
+#logo {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: auto;
+}
+.sidebar {
+	color: white;
+	position: fixed;
+	padding: 60px 30px 30px 30px;
+	background-color: #202020;
+	width: 25%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+.sidebar2 {
+	color: white;
+	position: fixed;
+	margin-top: 400px;
+	padding: 60px 30px 30px 30px;
+	background-color: #202020;
+	width: 25%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+.sidebar2 a{
+	color: white;
+	text-decoration: none;
+}
+
+.container {
+	clear: left;
+	float: right;
+	padding: 33px;
+	width: 65%;
+}
+
+.container-edit {
+	margin-top: 30px;
+	padding: 30px 100px 30px 100px;
+	width: 80%;
+	margin: auto;
+	background-color: #ecf0f1;
+}
+
+.container-content {
+	margin-top: 30px;
+	padding: 30px 100px 30px 100px;
+	width: 65%;
+	margin: auto;
+	background-color: #ecf0f1;
+}
+
+.container-content span {
+	background-color: black;
+	padding: 1px;
+	display: block;
+	width: 100%;
+}
+
+.display-content a {
+	font-size: 16px;
+	color: blue;
+}
+
+.display-content2{
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5%;
+	padding: 2%;
+}
+
+input[type="text"] {
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+}
+
+input[type="password"] {
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+}
+
+input[type="submit"] {
+	border-radius: 3px;
+	border: none;
+	padding: 10px;
+	font-size: 16px;
+	width: 100%;
+	color: #d3d3d3;
+	background-color: black;
+	cursor: pointer;
+}
+
+textarea {
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	resize: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.dashboard input[type="submit"] {
+	color: black;
+	background-color: #ecf0f1;
+}
+
+.display-comment{
+	border-color: blue;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5%;
+	padding: 2%;
+}
+
+#title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+span {
+	font-weight: bold;
+	font-style: italic;
+	color: red;
+}
+
+#page-title {
+	margin-top: -15px;
+	text-align: right;
+	padding-right: 15px;
+}
+
+#logout {
+	background-color: #db3444;
+	color: white;
+}
+
+#logout2 {
+	background-color: #db3444;
+	width: fit-content;
+	float: right;
+	color: white;
+}
+
+a {
+	color: black;
+}
+
+#return {
+	background-color: black;
+	color: white;
+}
+
+#delete {
+	color: red;
+}
+
+#text {
+	margin-left: 0px;
+	font-size: 20px;
+}
